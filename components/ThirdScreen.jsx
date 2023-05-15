@@ -3,10 +3,10 @@ import { motion } from 'framer-motion'
 
 const projectContainer = {
   hidden: {
-    
+
   },
   show: {
-    
+
     transition: {
       staggerChildren: 0.2,
       duration: 0.2
@@ -30,8 +30,8 @@ export default function ThirdScreen() {
     <>
       <div id='projects' className='h-full pb-40 text-center container mx-auto'>
         <motion.div
-          initial={{ x: -400, opacity: 0}}
-          whileInView={{ x: 0, opacity: 100}}
+          initial={{ x: -200, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 100 }}
           transition={{ type: "spring", duration: 0.5 }}
         >
           <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>My Recent Projects</h1>

@@ -34,7 +34,7 @@ export default function SecondScreen() {
                 <div
                     className="bg-primary pt-[45px] pb-[195px] text-center text-white overflow-x-hidden">
                     <motion.div
-                        initial={{ x: -400, opacity: 0}}
+                        initial={{ x: -200, opacity: 0}}
                         whileInView={{ x: 0, opacity: 100}}
                         transition={{ type: "spring", duration: 0.5 }}
                     >
