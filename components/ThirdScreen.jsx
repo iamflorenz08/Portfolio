@@ -35,7 +35,7 @@ export default function ThirdScreen() {
           transition={{ type: "spring", duration: 0.5 }}
         >
           <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>My Recent Projects</h1>
-          <h2 className='mt-8 text-lg md:text-xl'>Here are a few past projects I've worked on.</h2>
+          <h2 className='mt-8 text-lg md:text-xl'>Here are a few past projects I&apos;ve worked on.</h2>
         </motion.div>
 
         <motion.div
